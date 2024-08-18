@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 5px 0 0;
+    font-weight: normal;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    color: #35424a;
+    border-bottom: 2px solid #35424a;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.competenties ul, 
+.vaardigheden ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.competenties li, 
+.vaardigheden li {
+    background-color: #e6e6e6;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.werkervaring li, 
+.opleidingen li {
+    border-left: 3px solid #35424a;
+    padding-left: 10px;
+}
+
+.talen li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.talen li::after {
+    content: attr(data-level);
+    font-weight: bold;
+}
