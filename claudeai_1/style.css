@@ -1,0 +1,37 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    print-color-adjust: exact;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 0px;
+    padding:  20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px;
+    display: flex; /* Flexbox voor uitlijning */
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal centreren */
+    gap: 10px; /* Optioneel: ruimte tussen de namen */
+  }
+  header h1, header h2 {
+    margin: 0; /* Verwijder standaard marges */
+  }
+

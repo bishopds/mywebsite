@@ -1,0 +1,66 @@
+{
+  "identification": [
+    {
+            "firstName": "Dwight",
+            "lastName": "Sion",
+            "city": "Almere",
+            "title": "Test Automation Consultant"
+    }
+  ],
+  "competence": [
+    "Eager to learn ",
+    "Teamplayer",
+    "Perseverance",
+    "Analytical",
+    "Adapt to new technologies and methods"
+],
+"workExperience":[
+    {
+        "stater2":[
+            {
+                "workExperienceTitle":"Test Architect",
+                "workExperienceCompany":"Stater",
+                "workExperiencePeriod":"(08/2023 – 03/2024)",
+                "workExperienceSummary":"Stater NV is a subsidiary"
+            }
+        ],
+
+        "cak":[
+            {
+                "workExperienceTitle":"DevOps Test Engineer",
+                "workExperienceCompany":"CAK",
+                "workExperiencePeriod":"(07/2022 – 06/2023)",
+                "workExperienceSummary":"My responsibilities included ensuring that the new APIs were automatedly tested in Robot Framework, primarily focusing on API testing and some frontend testing. I performed the following tests: integration testing on the testing environment, chain testing on the acceptance environment, and assisting with acceptance testing on the production environment. Additionally, I worked on improving the CI/CD process for testing and troubleshooting test agent (server) issues across CAK."
+                
+            }
+        ]
+    }
+    
+    
+],
+"courses": [
+    "PCEP™ Certified Entry-Level Python Programmer - Python Institute (2023)",
+    "Java for Testers - Vijfhart/Ordina (2016)",
+    "HTML5, CSS3 en JavaScript - Microsoft (2017)",
+    "ISTQB Certified Tester, Foundation (2015)",
+    "PSM-1 (scrum master)(2012)",
+    "Linux/Unix - AT Computing (2012)",
+    "TMap NEXT® Test Engineer - EXIN (2012)",
+    "ISTQB Advanced TTA  (2016)"
+   ],
+   "skilks": [
+    "Python",
+    "VS Code",
+    "BDD/TDD",
+    "Robot Framework",
+    "Selenium"
+],"languages": [
+    "Dutch: Native speaker",
+    "Spanish: Conversational",
+    "Portuguese: Basic knowledge",
+    "French: Basic knowledge",
+    "English: Advanced / Proficient"
+]
+ 
+        
+}

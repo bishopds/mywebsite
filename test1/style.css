@@ -1,0 +1,100 @@
+/* Algemene opmaak voor de body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1 {
+    color: #0056b3 !important;
+}
+
+/* Stijl voor de hoofdheader */
+h1 {
+    font-size: 2.5em;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stijl voor sectieheaders */
+h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Paragrafen binnen secties */
+p {
+    margin-bottom: 10px;
+}
+
+/* Stijl voor de omschrijvingen binnen secties */
+section p {
+    margin-left: 20px;
+}
+
+/* Specifieke stijl voor vetgedrukte tekst */
+strong {
+    color: #0056b3;
+}
+
+/* Opmaak van de secties */
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de downloadknop */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect voor de downloadknop */
+button:hover {
+    background-color: #003366;
+}
+
+/* Responsieve aanpassingen */
+@media print {
+    /* Basisinstellingen voor afdrukken */
+    body {
+        color: #000;
+        background-color: #fff;
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+
+    /* Verberg bepaalde elementen die niet nodig zijn bij het printen */
+    button {
+        display: none;
+    }
+
+    .resume {
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    /* Verwijder onnodige schaduwen en stijlen */
+    section {
+        box-shadow: none;
+        border: none;
+        margin-bottom: 10px;
+    }
+}
+
